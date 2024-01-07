@@ -1,0 +1,71 @@
+.sidebar-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.profle{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.profle img{
+    border-radius: 50%;
+}
+.profile-name{
+    display: flex;
+    margin-top: 5px;
+}
+.profile-name h4{
+    letter-spacing: 0.5px;
+}
+.profile-name i{
+    font-size: 12px;
+    margin-left: 10px;
+    color: rgb(91, 91, 91);
+}
+.email{
+    font-size: 13px;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    margin: 10px 20px 10px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav-item:hover
+{
+    background-color: #b9d3fc;
+}
+.nav-item h4{
+    margin-left: 10px;
+}
+.nav-item img{
+    width: 20px;
+}
+
+.nav-item i{
+    color: #0062ff;
+}
+.page-nav{
+    margin-bottom: 100px;
+}
+.logout{
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+}
+.logout button{
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0062ff;
+}
+

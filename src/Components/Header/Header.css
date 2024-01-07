@@ -1,0 +1,62 @@
+.header-container{
+    width: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    width: 260px;
+    background-color: white;
+    box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
+    transform: skewX(-30deg);
+    margin-left: -30px;
+}
+.brand-logo{
+    transform: skewX(30deg);
+    margin-left: 30px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.brand-badge{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.brand-badge .badge-image{
+    border-radius: 100%;
+    margin-right: 6px;
+}
+.brand-badge span{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.drop-down{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 48px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 10px;
+}
+.drop-down i{
+    font-size: 1.2rem;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .brand-badge span{
+        display: none;
+    }
+    .brand{
+        width: 200px;
+    }
+}
+ 
